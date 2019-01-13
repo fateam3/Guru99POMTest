@@ -1,20 +1,15 @@
 package test;
 
 
-import java.util.concurrent.TimeUnit;
-
 import com.common.Guru99Login;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.testng.Assert;
-
 import org.testng.annotations.BeforeTest;
-
 import org.testng.annotations.Test;
-
 import pages.Guru99HomePage;
+
+import java.util.concurrent.TimeUnit;
 
 
 

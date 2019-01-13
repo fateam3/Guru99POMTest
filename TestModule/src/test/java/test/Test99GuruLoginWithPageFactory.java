@@ -1,20 +1,14 @@
 package test;
 
-import java.util.concurrent.TimeUnit;
-
+import PageFactory.Guru99HomePage;
+import PageFactory.Guru99Login;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.testng.Assert;
-
 import org.testng.annotations.BeforeTest;
-
 import org.testng.annotations.Test;
 
-import PageFactory.Guru99HomePage;
-
-import PageFactory.Guru99Login;
+import java.util.concurrent.TimeUnit;
 
 public class Test99GuruLoginWithPageFactory {
 
